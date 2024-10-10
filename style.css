@@ -1,0 +1,17 @@
+table{
+    background-color: aqua;
+   padding:40px;
+   margin:100px;
+}
+thead{
+    padding:40px;
+    border: 20px;
+    border-radius: 20px;
+    border-color: black;
+}
+.top{
+    background-color: palevioletred;
+}
+body{
+    background-color: blueviolet;
+}

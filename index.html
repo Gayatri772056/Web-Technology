@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjivani College of Engineering</title>
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+    <form>
+        <table>
+            <thead>
+                <tr>
+                    <td><img src="clg.jpg" width="100" alt="College Logo" align="center"></td>
+                    <td><h1>Sanjivani College of Engineering</h1></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="username">Enter Username</label></td>
+                    <td><input type="text" id="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Enter Password</label></td>
+                    <td><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Enter Age</label></td>
+                    <td><input type="number" id="age" min="15" max="25"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Enter Address</label></td>
+                    <td><textarea id="address" rows="4" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Select DOB</label></td>
+                    <td><input type="date" id="dob"></td>
+                </tr>
+                <tr>
+                    <td>Select Course</td>
+                    <td>
+                        <input type="checkbox" id="java" name="course" value="java">
+                        <label for="java">Java</label>
+                        <input type="checkbox" id="python" name="course" value="python">
+                        <label for="python">Python</label>
+                        <input type="checkbox" id="dotnet" name="course" value=".net">
+                        <label for="dotnet">.net</label>
+                        <input type="checkbox" id="angular" name="course" value="angular">
+                        <label for="angular">Angular</label>
+                        <input type="checkbox" id="reactjs" name="course" value="reactjs">
+                        <label for="reactjs">Reactjs</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Gender</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female" checked>
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fileUpload">Upload Pic</label></td>
+                    <td><input type="file" id="fileUpload"></td>
+                </tr>
+                <tr>
+                    <td><label for="qualification">Select Qualification</label></td>
+                    <td>
+                        <select id="qualification" name="qualification">
+                            <option value="be">B.E.</option>
+                            <option value="btech">B.Tech.</option>
+                            <option value="me">M.E.</option>
+                            <option value="mtech">M.Tech.</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit" onclick="validate()">Sign Up</button></td>
+                    <td><button type="button" onclick="window.location.href='login.html';">Login</button></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
